@@ -18,3 +18,5 @@ function Boardmember(name, homeState, training){
     console.log('Hi, my name is ${name}. I am from ${homeState}, and I was trained in ${training}.')
   }
 }
+
+let polishedBoardMember = new Boardmember('Mr.Polished', 'New York', 'law');
