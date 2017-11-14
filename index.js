@@ -1,4 +1,4 @@
-function Boardmember(name, homeState, training){
+function BoardMember(name, homeState, training){
   this.name = name;
   this.homeState = homeState;
   this.training = training;
@@ -19,4 +19,4 @@ function Boardmember(name, homeState, training){
   }
 }
 
-let polishedBoardMember = new Boardmember('Mr.Polished', 'New York', 'law');
+let polishedBoardMember = new BoardMember('Mr.Polished', 'New York', 'law');
